@@ -1,13 +1,14 @@
 import streamlit as st
 import pandas as pd 
-from matplotlib import colormaps
-
 
 df = pd.read_csv('datasets/housing.csv')
-df = df[:len(df)//2]  #reducing the dataframe in half
+df = df[:len(df)//10]  #using only a fraction of the dataset
 
 st.markdown("# Raw Housing Data")
-st.dataframe(df)
+st.data_editor(
+    df, 
+    num_rows='dynamic', #allows deleting entire rows
+)
 
 #display a simple map
 st.map(
