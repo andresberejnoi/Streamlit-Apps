@@ -4,7 +4,4 @@ channels:
 dependencies:
   - numpy
   - matplotlib
-  - streamlit
   - pandas
-  - conda-forge::sqlalchemy
-  - conda-forge::mysqlclient
