@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Project Information")
 
 st.markdown("This is an example project to show the basics of Streamlit.")
-st.markdown("Here is a [blog post](#) explaining how this page was made. Additionally, here is the link to the [Github repository](https://github.com/andresberejnoi/Streamlit-Apps/tree/main/Housing%20Prices) for the project.")
+st.markdown("Here is a [blog post](https://andresberejnoi.com/blog/build-a-simple-data-science-app-with-streamlit/) explaining how this page was made. Additionally, here is the link to the [Github repository](https://github.com/andresberejnoi/Streamlit-Apps/tree/main/Housing%20Prices) for the project.")
 
 st.markdown("""
     ### Streamlit Elements Used:
